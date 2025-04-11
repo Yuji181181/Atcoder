@@ -1,3 +1,5 @@
+# if文を使った場合
+
 H, A = map(int, input().split())
 x = H // A  # 商
 if H % A == 0:  # HとAが割り切れる場合
