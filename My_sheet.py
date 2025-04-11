@@ -18,3 +18,9 @@ for i in range(100, 110):
 
 for i in range(100, 110, 3):
     print(i)  # 100, 103, 106, 109までの数字を表示
+
+for i in range(10, 0, -1):
+    print(i)  # 10から1までの数字を表示
+
+for i in range(60, 10, -10):
+    print(i)  # 60, 50, 40, 30, 20までの数字を表示
