@@ -24,3 +24,18 @@ for i in range(10, 0, -1):
 
 for i in range(60, 10, -10):
     print(i)  # 60, 50, 40, 30, 20までの数字を表示
+
+print("こんにちは", end=" ")
+print("世界")
+# こんにちは  世界 を出力
+
+print("ABC", end="")
+print("DEF")
+# こんにちは世界 を出力
+
+print("一列目", end=" ")
+print("終わり", end=" ")
+print()
+print("二列目")
+# 一列目 終わり
+# 二列目         を出力
