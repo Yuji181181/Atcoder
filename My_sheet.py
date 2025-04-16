@@ -13,6 +13,7 @@ print(b[:-2])  # 最後の2文字を消し、最初から3番目までの要素�
 print(b[::2])  # 偶数番目の要素を表示
 print(b + c)  # bとcを結合
 
+# for i in range()
 for i in range(100, 110):
     print(i)  # 100から109までの数字を表示
 
@@ -24,6 +25,16 @@ for i in range(10, 0, -1):
 
 for i in range(60, 10, -10):
     print(i)  # 60, 50, 40, 30, 20までの数字を表示
+
+# その他のfor文(リスト、文字列)
+S = "abcd"
+for i in S:
+    print(i)  # 実行結果 a,b,c,d(縦)
+
+L = [4, 2, 5, 3]
+for i in L:
+    print(i)  # 実行結果 4,2,5,3(縦)
+
 
 print("こんにちは", end=" ")
 print("世界")
@@ -47,12 +58,12 @@ print("二列目")
 for x in range(5):
     if x == 3:  # i=3のときprint(x)を無視してi=4にいく
         continue
-    print(x)  # 実行結果 0,1,2,4
+    print(x)  # 実行結果 0,1,2,4(縦)
 
 for x in range(5):
     if x == 3:  # i=3になったらfor文を抜ける
         break
-    print(x)  # 実行結果 0,1,2
+    print(x)  # 実行結果 0,1,2(縦)
 
 
 ### 演算子
