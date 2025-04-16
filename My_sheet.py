@@ -53,3 +53,14 @@ for x in range(5):
     if x == 3:  # i=3になったらfor文を抜ける
         break
     print(x)  # 実行結果 0,1,2
+
+
+### 演算子
+
+# a ** b  aのb乗
+# a / b   割り算
+# a % b   aをbで割った余り
+# a // b  切り捨ての割り算
+
+# a in b  aがbに含まれている
+# a not in b  aがbに含まれていない
