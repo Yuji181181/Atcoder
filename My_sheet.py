@@ -39,3 +39,17 @@ print()
 print("二列目")
 # 一列目 終わり
 # 二列目         を出力
+
+## for,while 文中の else,continue,break
+# continue :以降を無視してfor,while文の先頭に戻る
+# break : 以降を無視してfor,while文の処理自体を終了する
+
+for x in range(5):
+    if x == 3:  # i=3のときprint(x)を無視してi=4にいく
+        continue
+    print(x)  # 実行結果 0,1,2,4
+
+for x in range(5):
+    if x == 3:  # i=3になったらfor文を抜ける
+        break
+    print(x)  # 実行結果 0,1,2
