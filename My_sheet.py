@@ -75,3 +75,4 @@ for x in range(5):
 
 # a in b  aがbに含まれている
 # a not in b  aがbに含まれていない
+#
