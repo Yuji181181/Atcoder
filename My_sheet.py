@@ -79,3 +79,14 @@ for x in range(5):
 
 print(ord("A"))  # 65を出力
 print(chr(65))  # Aを出力
+
+# 大文字小文字を判定する関数
+print("abc".islower())  # Trueを返す
+print('"DEF'.islower())  # Falseを返す
+print("ABC".isupper())  # Trueを返す
+
+print("appleいく 1　9".islower())  # Trueを返す
+# 数、日本語、空白などは無視される
+
+print("11 514".isdigit())  # Trueを返す
+# 数の判定だが""は必要
