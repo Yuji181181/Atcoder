@@ -90,3 +90,5 @@ print("appleいく 1　9".islower())  # Trueを返す
 
 print("11 514".isdigit())  # Trueを返す
 # 数の判定だが""は必要
+
+print(int("001"))  # 1を出力
