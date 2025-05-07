@@ -9,8 +9,8 @@ while i < len(S):  ## 長さの数だけループ
     j = i + 1  ## 次の文字の位置(今+1)
     while j < len(S) and x == S[j]:  ## i+1 < len(S) かつ S[i] == S[i+1] の間ループ
         j += 1  ## 次のループに行くのに+1して次の文字の位置へ
-        result += x + str(j - i)  ## resultに追加
-        i = j  ## 次に見る位置(1つ目のwhile文)をiからjに更新
+    result += x + str(j - i)  ## resultに追加
+    i = j  ## 次に見る位置(1つ目のwhile文)をiからjに更新
 
 print(result)
 
